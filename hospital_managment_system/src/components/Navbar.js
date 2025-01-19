@@ -15,7 +15,7 @@ export default function NavigationBar() {
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center gap-44">
                         <div className="flex-shrink-0">
-                            <Link href={"/"}><Image src={"/logoImage.jpg"} height={100} width={190} alt="logo image" /></Link>
+                            <Link href={"/"}><Image src={"/logoImage.jpg"} height={100} width={190} alt="logo image"/></Link>
                         </div>
 
                         <div className="hidden md:block">
