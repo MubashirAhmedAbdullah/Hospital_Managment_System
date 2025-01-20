@@ -32,7 +32,7 @@ export default function NavigationBar() {
                         <Link href={'/Auth/Login'}>
                         <Button
                             variant="outline"
-                            className="text-white w-24 h-10 text-lg bg-blue-600 hover:bg-blue-500 hover:text-white transition-transform duration-300 transform hover:scale-95"
+                            className="text-white w-24 h-10 text-lg bg-[#22A3FE] hover:bg-blue-500 hover:text-white transition-transform duration-300 transform hover:scale-95"
                         >
                             Login
                         </Button>
