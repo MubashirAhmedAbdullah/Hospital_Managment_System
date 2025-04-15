@@ -27,20 +27,20 @@ export default function Navbar() {
 
       {/* Desktop Menu */}
       <div className="hidden md:flex items-center gap-5">
-        <Link href="">
+        <Link href="/">
           <li className="list-none text-lg font-semibold text-[#007BFF] cursor-pointer">Home</li>
         </Link>
-        <Link href="">
+        <Link href="/services">
           <li className="list-none text-lg font-semibold text-[#007BFF] cursor-pointer">Services</li>
         </Link>
-        <Link href="">
+        <Link href="/AboutUs">
           <li className="list-none text-lg font-semibold text-[#007BFF] cursor-pointer">About us</li>
         </Link>
       </div>
 
       {/* Desktop Login */}
       <div className="hidden md:flex">
-        <Link href="">
+        <Link href="/Authentication/Login">
           <div className="flex items-center gap-3">
             <p className="text-lg font-semibold text-[#007BFF]">Login Now</p>
             <IoLogIn size={30} style={{ color: "#007BFF" }} />
