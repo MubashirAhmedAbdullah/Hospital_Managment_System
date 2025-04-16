@@ -3,6 +3,8 @@
 
 export default function Login (){
     return(
-        "Hello Login page"
+        <div>
+            Hello World
+        </div>
     )
 }

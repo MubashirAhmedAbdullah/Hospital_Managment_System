@@ -8,7 +8,7 @@ export default function AboutUs() {
         <div className="min-h-screen px-6 md:px-20 py-20 text-gray-800 font-sans">
             {/* Hero Section */}
             <section className="text-center mb-20">
-                <h1 className="text-3xl font-extrabold text-[#007BFF] mb-4 leading-tight">
+                <h1 className="text-3xl font-bold text-[#007BFF] mb-4 leading-tight">
                     Empowering Hospitals Through Smart Technology
                 </h1>
                 <p className="text-lg text-gray-400 max-w-2xl mx-auto mt-4">

@@ -1,14 +1,13 @@
 
 
 
-export default function AuthenticationLayout ({children}){
+
+export default function AuthenticationLayout({children}){
     return(
-        <html>
-            <body>
-                <div>
-                    {children}
-                </div>
-            </body>
-        </html>
+        <>
+        <div>
+            {children}
+        </div>
+        </>
     )
-} 
+}
