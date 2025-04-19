@@ -99,7 +99,7 @@ export default function Login() {
                     <CardFooter>
                         <div className="w-full text-center text-sm text-slate-600">
                             Don't have an account?{' '}
-                            <Link href={"/Signup"} className="font-semibold text-[#007BFF] hover:underline">
+                            <Link href={"/Authentication/SignUp"} className="font-semibold text-[#007BFF] hover:underline">
                                 Create one here
                             </Link>
                         </div>
