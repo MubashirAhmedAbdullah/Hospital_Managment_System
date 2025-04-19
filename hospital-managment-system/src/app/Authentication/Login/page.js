@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from 'react'
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Github, Mail, Lock, User, ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 import { Label } from '@/Components/ui/label'
@@ -9,6 +8,7 @@ import { Input } from '@/Components/ui/input'
 import { Checkbox } from '@/Components/ui/checkbox'
 import { Separator } from '@/Components/ui/separator'
 import { Button } from '@/Components/ui/button'
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/Components/ui/card'
 
 export default function Login() {
     const [email, setEmail] = useState('')
