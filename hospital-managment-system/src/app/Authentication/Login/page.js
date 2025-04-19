@@ -1,14 +1,14 @@
 "use client"
 
 import { useState } from 'react'
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Separator } from "@/components/ui/separator"
-import { Checkbox } from "@/components/ui/checkbox"
 import { Github, Mail, Lock, User, ArrowRight } from 'lucide-react'
 import Link from 'next/link'
+import { Label } from '@/Components/ui/label'
+import { Input } from '@/Components/ui/input'
+import { Checkbox } from '@/Components/ui/checkbox'
+import { Separator } from '@/Components/ui/separator'
+import { Button } from '@/Components/ui/button'
 
 export default function Login() {
     const [email, setEmail] = useState('')
@@ -28,7 +28,7 @@ export default function Login() {
                     <CardHeader className="space-y-1">
                         <CardTitle className="text-3xl font-bold text-center text-[#007BFF]">Welcome Back</CardTitle>
                         <CardDescription className="text-center text-[#007BFF]">
-                            Enter your credentials to access <br/> Mansoori Hospital Managment System
+                            Enter your credentials to access<br /> Mansoori Hospital Managment System
                         </CardDescription>
                     </CardHeader>
                     <CardContent className="space-y-4">
@@ -99,7 +99,7 @@ export default function Login() {
                     <CardFooter>
                         <div className="w-full text-center text-sm text-slate-600">
                             Don't have an account?{' '}
-                            <Link href={"/Authentication/SignUp"} className="font-semibold text-[#007BFF] hover:underline">
+                            <Link href={"/Signup"} className="font-semibold text-[#007BFF] hover:underline">
                                 Create one here
                             </Link>
                         </div>
