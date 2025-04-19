@@ -58,16 +58,16 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="absolute top-20 left-0 w-full bg-white shadow-lg flex flex-col items-center gap-6 py-5 z-10 md:hidden">
-          <Link href="" onClick={() => setMenuOpen(false)}>
+          <Link href="/" onClick={() => setMenuOpen(false)}>
             <p className="text-lg font-semibold text-[#007BFF]">Home</p>
           </Link>
-          <Link href="" onClick={() => setMenuOpen(false)}>
+          <Link href="/services" onClick={() => setMenuOpen(false)}>
             <p className="text-lg font-semibold text-[#007BFF]">Services</p>
           </Link>
-          <Link href="" onClick={() => setMenuOpen(false)}>
+          <Link href="/AboutUs" onClick={() => setMenuOpen(false)}>
             <p className="text-lg font-semibold text-[#007BFF]">About us</p>
           </Link>
-          <Link href="" onClick={() => setMenuOpen(false)}>
+          <Link href="/Authentication/Login" onClick={() => setMenuOpen(false)}>
             <div className="flex items-center gap-3">
               <p className="text-lg font-semibold text-[#007BFF]">Login Now</p>
               <IoLogIn size={30} style={{ color: "#007BFF" }} />
