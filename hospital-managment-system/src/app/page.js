@@ -1,3 +1,5 @@
+import Footer from "@/Components/footer";
+import Navbar from "@/Components/navbar";
 import { features } from "@/lib/data";
 import { Button, Tooltip } from "antd";
 import Image from "next/image";
@@ -7,6 +9,7 @@ import { IoLogIn } from "react-icons/io5";
 export default function Home() {
   return (
     <div>
+      <Navbar />
       <div className="px-4 md:px-10">
         {/* Hero Section */}
         <div className="flex flex-col md:flex-row items-center gap-10 my-12">
@@ -112,6 +115,7 @@ export default function Home() {
           </div>
         </section>
       </div>
+      <Footer />
     </div>
   );
 }
