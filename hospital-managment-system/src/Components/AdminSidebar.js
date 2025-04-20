@@ -8,7 +8,7 @@
         SidebarMenuButton,
         SidebarMenuItem,
         SidebarProvider,
-    } from "@/components/ui/sidebar"
+    } from "@/Components/ui/sidebar"
     import { MdHome, MdPeople, MdCalendarToday, MdSearch, MdSettings } from "react-icons/md";
 
 
