@@ -9,6 +9,7 @@ import { Checkbox } from '@/Components/ui/checkbox'
 import { Separator } from '@/Components/ui/separator'
 import { Button } from '@/Components/ui/button'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/Components/ui/card'
+import Image from 'next/image'
 
 export default function Login() {
     const [email, setEmail] = useState('')
@@ -81,10 +82,10 @@ export default function Login() {
                             </Button>
                         </form>
                         <div>
-                            <Separator>
+                            <Separator className="text-center">
                                 <span className="px-2 text-sm text-[#007BFF]">Or continue with</span>
                             </Separator>
-                            <div className="grid grid-cols-2 gap-4 mt-10">
+                            {/* <div className="grid grid-cols-2 gap-4 mt-10">
                                 <Button variant="outline" className="w-full border-indigo-200 hover:bg-indigo-50">
                                     <Github className="w-5 h-5 mr-2" />
                                     GitHub
@@ -93,7 +94,21 @@ export default function Login() {
                                     <Mail className="w-5 h-5 mr-2" />
                                     Google
                                 </Button>
-                            </div>
+                            </div> */}
+
+
+                            <div className="flex justify-center grid-cols-2 gap-4 mt-10">
+                                          <Button className="flex items-center space-x-3 bg-white border text-[#007BFF] hover:bg-gray-100 px-4 py-5 w-full">
+                                            <Image
+                                              src="/Google_Icons-09-512.jpg"
+                                              alt="Google"
+                                              width={24}
+                                              height={24}
+                                              className="rounded-full"
+                                            />
+                                            <span className="text-sm font-semibold">Continue with Google</span>
+                                          </Button>
+                                        </div>
                         </div>
                     </CardContent>
                     <CardFooter>

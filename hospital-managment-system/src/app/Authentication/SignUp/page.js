@@ -60,7 +60,7 @@ export default function SignUp() {
             Empowering Smart Care<br /> Through Digital Innovation
           </h3>
           <p className="text-sm text-center text-blue-100 max-w-xs">
-            Welcome to Mansoori Hospital Management System — crafted for efficiency, care, and the future of health tech.
+            Welcome to <br/> Mansoori Hospital Management System <br/> crafted for efficiency, care, and the future of health tech.
           </p>
         </div>
       </div>

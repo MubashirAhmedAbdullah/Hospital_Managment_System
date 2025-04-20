@@ -1,17 +1,13 @@
 import { AdminSidebar } from "@/Components/AdminSidebar";
-
-
-
-
-
+import { SidebarProvider } from "@/Components/ui/sidebar";
 
 export default function AdminLayout({ children }) {
   return (
-    <div className="flex min-h-screen">
-      <AdminSidebar />
-      <main className="flex-1 p-6">
-        {children}
-      </main>
-    </div>
-  );
+    <SidebarProvider>
+        <AdminSidebar />
+        <main className="">
+          {children}
+        </main>
+    </SidebarProvider>
+  )
 }
