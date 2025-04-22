@@ -5,9 +5,7 @@ export default function AdminLayout({ children }) {
   return (
     <SidebarProvider>
         <AdminSidebar />
-        <main className="">
           {children}
-        </main>
     </SidebarProvider>
   )
 }
