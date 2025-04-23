@@ -12,11 +12,12 @@ import {
     SidebarProvider,
 } from "@/components/ui/sidebar";
 import Image from "next/image";
+import Link from "next/link";
 
 const items = [
     {
         title: "Home",
-        url: "#",
+        url: "/Admin/dashboard",
         icon: Home,
     },
     {
@@ -45,10 +46,10 @@ export default function AdminLayout({ children }) {
     return (
         <SidebarProvider>
             <div className="flex min-h-screen bg-[#f0f4f8]">
-                <Sidebar className="w-72 border-r bg-white shadow-md">
-                    <SidebarContent className="p-6">
+                <Sidebar className="w-64 border-r bg-white shadow-md">
+                    <SidebarContent className="p-2 pt-5">
                         <SidebarGroup>
-                            <SidebarGroupLabel className="text-xl font-bold text-[#007BFF] mb-6 gap-3 flex items-center">
+                            <SidebarGroupLabel className="text-lg font-bold text-[#007BFF] mb-6 gap-3 flex items-center">
                                 <span><Image src={"/ChatGPT Image Apr 15, 2025, 04_05_09 PM.png"} height={100} width={50} alt="logo imagr" className="rounded-full" /></span> Mansoori HMS
                             </SidebarGroupLabel>
                             <SidebarGroupContent>
@@ -56,13 +57,13 @@ export default function AdminLayout({ children }) {
                                     {items.map((item) => (
                                         <SidebarMenuItem key={item.title}>
                                             <SidebarMenuButton asChild>
-                                                <a
+                                                <Link
                                                     href={item.url}
-                                                    className="flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium text-gray-600 hover:bg-[#E5F1FF] hover:text-[#007BFF] transition-all"
+                                                    className="flex items-center gap-3 px-8 py-2 rounded-lg text-sm font-medium text-gray-600 hover:bg-[#E5F1FF] hover:text-[#007BFF] transition-all"
                                                 >
                                                     <item.icon className="w-5 h-5" />
                                                     <span>{item.title}</span>
-                                                </a>
+                                                </Link>
                                             </SidebarMenuButton>
                                         </SidebarMenuItem>
                                     ))}
