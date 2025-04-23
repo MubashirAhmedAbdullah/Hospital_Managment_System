@@ -1,7 +1,7 @@
 
 
 
-export default function dashboard(){
+export default function AdminRootLayout(){
     return(
         <div>
             Hello World

@@ -1,11 +1,14 @@
-import { AdminSidebar } from "@/Components/AdminSidebar";
-import { SidebarProvider } from "@/Components/ui/sidebar";
+import AdminRootLayout from "@/Components/AdminLayout";
 
-export default function AdminLayout({ children }) {
-  return (
-    <SidebarProvider>
-        <AdminSidebar />
-          {children}
-    </SidebarProvider>
-  )
+
+
+
+
+export default function AdminLayout({children}){
+    return(
+        <div className="">
+            <AdminRootLayout />
+            {children}
+        </div>
+    )
 }
