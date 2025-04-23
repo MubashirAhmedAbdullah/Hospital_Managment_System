@@ -53,7 +53,7 @@ export default function Home() {
         {/* About Section */}
         <section className="bg-white py-20 px-6 md:px-20">
           <div className="max-w-6xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#007BFF] mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-[] mb-6">
               About Mansoori Hospital Management
             </h2>
             <p className="text-gray-400 text-lg max-w-3xl mx-auto mb-10">
