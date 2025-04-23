@@ -10,7 +10,7 @@ import {
     SidebarMenuButton,
     SidebarMenuItem,
     SidebarProvider,
-} from "@/components/ui/sidebar";
+} from "@/Components/ui/sidebar";
 import Image from "next/image";
 import Link from "next/link";
 
