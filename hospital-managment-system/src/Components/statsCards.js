@@ -36,11 +36,11 @@ const stats = [
 
 export default function StatsCards() {
   return (
-    <div className="flex items-center gap-10 w-full px-4">
+    <div className="flex items-center justify-evenly px-4">
       {stats.map((stat, index) => {
         const Icon = stat.icon
         return (
-          <Card key={index} className="w-full shadow-md rounded-2xl">
+          <Card key={index} className="shadow-md rounded-2xl w-52">
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
               <CardTitle className="text-sm font-medium text-gray-500">{stat.title}</CardTitle>
               <Icon className={`h-5 w-5 ${stat.iconColor}`} />

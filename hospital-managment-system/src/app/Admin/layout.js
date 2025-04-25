@@ -45,12 +45,21 @@ const items = [
 export default function AdminLayout({ children }) {
     return (
         <SidebarProvider>
-            <div className="flex min-h-screen bg-[#f0f4f8]">
+            <div className="w-full flex bg-[#f0f4f8] min-h-screen">
                 <Sidebar className="w-64 border-r bg-white shadow-md">
                     <SidebarContent className="p-2 pt-5">
                         <SidebarGroup>
                             <SidebarGroupLabel className="text-lg font-bold text-[#007BFF] mb-6 gap-3 flex items-center">
-                                <span><Image src={"/ChatGPT Image Apr 15, 2025, 04_05_09 PM.png"} height={100} width={50} alt="logo imagr" className="rounded-full" /></span> Mansoori HMS
+                                <span>
+                                    <Image
+                                        src={"/ChatGPT Image Apr 15, 2025, 04_05_09 PM.png"}
+                                        height={100}
+                                        width={50}
+                                        alt="logo"
+                                        className="rounded-full"
+                                    />
+                                </span>{" "}
+                                Mansoori HMS
                             </SidebarGroupLabel>
                             <SidebarGroupContent>
                                 <SidebarMenu className="space-y-2">
@@ -74,7 +83,7 @@ export default function AdminLayout({ children }) {
                 </Sidebar>
 
                 {/* Main content area */}
-                <div className="flex-1 p-8">{children}</div>
+                <div className="flex-1 p-4">{children}</div>
             </div>
         </SidebarProvider>
     );
