@@ -12,6 +12,7 @@ export default function Home() {
     <div>
       <Navbar />
       <div className="px-4 md:px-10">
+        <Link href={"/Admin/dashboard"}><Button>Admin</Button></Link>
         {/* Hero Section */}
         <div className="flex flex-col md:flex-row items-center gap-10 my-12">
           {/* Text Content */}
