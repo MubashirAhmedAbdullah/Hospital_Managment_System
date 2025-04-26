@@ -2,6 +2,7 @@ import Footer from "@/Components/footer";
 import Navbar from "@/Components/navbar";
 import { features } from "@/lib/data";
 import { Button, Tooltip } from "antd";
+import '@ant-design/v5-patch-for-react-19';
 import Image from "next/image";
 import Link from "next/link";
 import { IoLogIn } from "react-icons/io5";
