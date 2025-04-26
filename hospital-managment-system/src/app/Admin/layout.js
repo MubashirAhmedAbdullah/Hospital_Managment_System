@@ -43,12 +43,12 @@ const items = [
     },
     {
         title: "Appionments",
-        url: "/Admin/AppionmentsRecord",
+        url: "/Admin/appionmentsRecord",
         icon: CalendarCheck,
     },
     {
         title: "Hospitals",
-        url: "#",
+        url: "/Admin/hospitalsRecords",
         icon: Hospital,
     },
 ];
