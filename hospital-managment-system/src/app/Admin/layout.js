@@ -43,7 +43,7 @@ const items = [
     },
     {
         title: "Appionments",
-        url: "#",
+        url: "/Admin/AppionmentsRecord",
         icon: CalendarCheck,
     },
     {
