@@ -38,7 +38,7 @@ const items = [
     },
     {
         title: "Doctors",
-        url: "#",
+        url: "/Admin/doctorsRecord",
         icon: Stethoscope,
     },
     {
