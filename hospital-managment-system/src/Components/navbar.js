@@ -1,5 +1,5 @@
 "use client"
-
+import { Analytics } from "@vercel/analytics/react"
 import React, { useState } from "react";
 import { Tooltip } from "antd";
 import Image from "next/image";
