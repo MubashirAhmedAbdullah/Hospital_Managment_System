@@ -6,7 +6,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { IoLogIn } from "react-icons/io5";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
-
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
